@@ -7,9 +7,22 @@ h2 {
     font-size: 2.5rem;
 }
 
+/*------------------- nav bar ----------------------*/
+.my-custom-navbar {
+    background-color: #adbc71d1; /*#adbc71;*/
+    position: fixed;
+    width: 100%;
+    padding-top: 4px;
+}
+.my-custom-brand {
+    font-family: 'Parisienne', cursive;
+    font-weight: 900;
+}
+
 /*------------------- top container ----------------*/
 .top-container {
     background-color: #CCD6A6;
+    padding-top: 64px;
 }
 .my-name {
     font-weight:bolder;
@@ -41,6 +54,8 @@ h2 {
 }
 .section-divide-line {
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .profile, .skills {
     width: 32%;
@@ -51,6 +66,8 @@ h2 {
     border-width: 8px;
     border-color: lightgray;
     width: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .contact-me h2 {
     margin-bottom: 0;
